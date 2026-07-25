@@ -8,9 +8,16 @@ export default function Navbar() {
                 </div>
 
                 <div className="hidden md:flex gap-8 text-gray-700 font-medium">
-                    <a href="#" className="hover:text-blue-600 transition">
+                    <button
+                        onClick={() => {
+                            document.getElementById("features")?.scrollIntoView({
+                                behavior: "smooth",
+                            });
+                        }}
+                        className="hover:text-blue-600 transition"
+                    >
                         Features
-                    </a>
+                    </button>
 
                     <a href="#" className="hover:text-blue-600 transition">
                         About

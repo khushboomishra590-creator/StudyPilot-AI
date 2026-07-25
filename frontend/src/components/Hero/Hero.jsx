@@ -1,9 +1,8 @@
 import DashboardPreview from "../DashboardPreview/DashboardPreview";
-
+import Button from "../Button/Button";
 function Hero() {
     return (
-        <section className="max-w-7xl mx-auto px-6 py-20">
-
+        <section className="min-h-screen max-w-7xl mx-auto px-6 flex items-center">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
 
                 {/* Left Side */}
@@ -28,13 +27,13 @@ function Hero() {
 
                     <div className="flex gap-4 mt-10">
 
-                        <button className="bg-blue-600 text-white px-8 py-4 rounded-xl hover:bg-blue-700">
+                        <Button>
                             Get Started
-                        </button>
+                        </Button>
 
-                        <button className="border px-8 py-4 rounded-xl">
+                        <Button variant="secondary">
                             Watch Demo
-                        </button>
+                        </Button>
 
                     </div>
 
