@@ -1,10 +1,7 @@
+import Home from "./pages/Home";
+
 function App() {
-  return (
-    <div>
-      <h1>StudyPilot AI</h1>
-      <p>Your AI-powered study companion.</p>
-    </div>
-  );
+  return <Home />;
 }
 
 export default App;
